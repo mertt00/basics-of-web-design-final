@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0,4 ease;
+    }
+    
+    body {
+    background-color:rgb(156, 51, 88);
+    background-repeat: none;
+    background-position: top;
+    background-size: cover;
+    background-image: url(fotoğraflar/arka.jpg);
+    
+    }
+    
+    /*! Header Başlangıç */
+    .header
+    {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4%;
+    margin: 0 7%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;ü
+    
+    
+    }
+    .header  {
+
+        background-color: aqua;
+    }
+
+    .header .navbar a { 
+        margin: 0 1rem;
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        
+        
+    
+    
+    
+    }
+    .header .navbar .active,
+    .header .navbar a:hover {
+        background-color: rgb(102, 0, 255);
+        padding: 8px;
+        border-radius: 1rem;
+        
+       
+    
+    }
+    
+    .header .buttons button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    
+    }
+    
+    /*! Header Bitiş */
+    .logo img {
+        height: 7rem;
+       margin-right: 20px;
+       float: left;
+    }
+    
+    /*! Dropdown menü*/
+    .dropbtn {
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        padding: 0.6rem;
+        font-size: 1.4rem;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown {
+    
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #2eb81c;
+        min-width: 10rem;
+        z-index: 1;
+        
+    }
+    
+    .dropdown-content a {
+    color: black;
+    padding: 12px 1rem;
+    text-decoration: none;
+    display: block;
+    
+    }
+    .dropdown-content a:hover {background-color: transparent; border-color: red; padding-bottom: 0.3rem;}
+    .dropdown:hover .dropdown-content {display: block;}
+    
+    
+    /*! Dropdown menü*/
+    .buttons2 button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    float: right;
+    background-color: transparent;
+    padding-right: 10rem;
+    padding-top: 1rem ;
+    }
+    img { border: 10px rgb(21, 4, 62) solid;}
+    #iskandinav1 { width: 500px;
+    height: 400px;
+    position: relative;
+    right: -100px;
+    }
+    #iskandinav2 { width: 500px;
+    height: 400px;
+    position: relative;
+    right: -800px;
+    bottom: 500px;
+    }
+ 
+
+    #iskandinav3 { width: 500px;
+        height: 400px;
+        position: relative;
+        right: -100px;
+        bottom: 400px;
+        }
+        #iskandinav4 { width: 500px;
+            height: 400px;
+            position: relative;
+            right: -800px;
+            bottom: 900px;
+            }
+
+            #klasik1 { width: 500px;
+                height: 400px;
+                position: relative;
+                right: -100px;
+                }
+                #klasik2 { width: 500px;
+                    height: 400px;
+                    position: relative;
+                    right: -800px;
+                    bottom: 500px;
+                    }
+                    #klasik3 { width: 500px;
+                        height: 400px;
+                        position: relative;
+                        right: -100px;
+                        bottom: 400px;
+                        }
+                        #klasik4 { width: 500px;
+                            height: 400px;
+                            position: relative;
+                            right: -800px;
+                            bottom: 900px;      
+                            }
+                            #çağdaş1 { width: 500px;
+                                height: 400px;
+                                position: relative;
+                                right: -100px;
+                                }
+                                #çağdaş2 { width: 500px;
+                                    height: 400px;
+                                    position: relative;
+                                    right: -800px; 
+                                    bottom: 500px;       
+                                    }
+                                    #çağdaş3 { width: 500px;
+                                        height: 400px;
+                                        position: relative;
+                                        right: -100px;
+                                        bottom: 400px;  
+                                        }   
+                                        #çağdaş4 { width: 500px;
+                                            height: 400px;
+                                            position: relative;
+                                            right: -800px;
+                                            bottom: 900px;
+                                            }
+                                            #modern1 { width: 500px;
+                                                height: 400px;
+                                                position: relative;
+                                                right: -100px;
+                                                }
+                                                #modern2 { width: 500px;
+                                                    height: 400px;
+                                                    position: relative;
+                                                    right: -800px; 
+                                                    bottom: 500px;       
+                                                    }
+                                                    #modern3 { width: 500px;
+                                                        height: 400px;
+                                                        position: relative;
+                                                        right: -100px;
+                                                        bottom: 400px;  
+                                                        }   
+                                                        #modern4 { width: 500px;
+                                                            height: 400px;
+                                                            position: relative;
+                                                            right: -800px;
+                                                            bottom: 900px;
+                                                            }
+                                                            #doğal1 { width: 500px;
+                                                                height: 400px;
+                                                                position: relative;
+                                                                right: -100px;
+                                                                }
+                                                                #doğal2 { width: 500px;
+                                                                    height: 400px;
+                                                                    position: relative;
+                                                                    right: -800px; 
+                                                                    bottom: 500px;       
+                                                                    }
+                                                                    #doğal3 { width: 500px;
+                                                                        height: 400px;
+                                                                        position: relative;
+                                                                        right: -100px;
+                                                                        bottom: 400px;  
+                                                                        }   
+                                                                        #doğal4 { width: 500px;
+                                                                            height: 400px;
+                                                                            position: relative;
+                                                                            right: -800px;
+                                                                            bottom: 900px;
+                                                                                  }
+                                                                                  #masa1 { width: 500px;
+                                                                                    height: 400px;
+                                                                                    position: relative;
+                                                                                    right: -100px;
+                                                                                    }
+                                                                                    #masa2 { width: 500px;
+                                                                                        height: 400px;
+                                                                                        position: relative;
+                                                                                        right: -800px;
+                                                                                        bottom: 500px;        
+                                                                                        }
+                                                                                        #masa3 { width: 500px;
+                                                                                            height: 400px;
+                                                                                            position: relative;
+                                                                                            right: -100px;
+                                                                                            bottom: 400px;  
+                                                                                            }   
+                                                                                            #masa4 { width: 500px;
+                                                                                                height: 400px;
+                                                                                                position: relative;
+                                                                                                right: -800px;
+                                                                                                bottom: 900px;
+                }
+                #aydın1 { width: 500px;
+                    height: 400px;
+                    position: relative;
+                    right: -100px;
+                    
+                    }
+                    #aydın2 { width: 500px;
+                        height: 400px;
+                        position: relative;
+                        right: -800px; 
+                        bottom: 500px;       
+                        }
+                        #aydın3 { width: 500px;
+                            height: 400px;
+                            position: relative;
+                            right: -800px;
+                            bottom: 400px;  
+                            }   
+                            #aydın4 { width: 500px;
+                                height: 400px;
+                                position: relative;
+                                right: -100px;
+                                bottom: 900px;
+                                }
+                                #sandal1 { width: 500px;
+                                    height: 400px;
+                                    position: relative;
+                                    right: -100px;
+                                    }
+                                    #sandal2 { width: 500px;
+                                        height: 400px;
+                                        position: relative;
+                                        right: -800px;
+                                        bottom: 500px;        
+                                        }
+                                        #sandal3 { width: 500px;
+                                            height: 400px;
+                                            position: relative;
+                                            right: -100px;
+                                            bottom: 400px;  
+                                            }   
+                                            #sandal4 { width: 500px;
+                                                height: 400px;
+                                                position: relative;
+                                                right: -800px;
+                                                bottom: 900px;
+                                                }
+                                                #avize1 { width: 500px;
+                                                    height: 400px;
+                                                    position: relative;
+                                                    right: -100px;
+                                                    }
+                                                    #avize2 { width: 500px;
+                                                        height: 400px;
+                                                        position: relative;
+                                                        right: -800px;
+                                                        bottom: 500px;        
+                                                        }
+                                                        #avize3 { width: 500px;
+                                                            height: 400px;
+                                                            position: relative;
+                                                            right: -800px;
+                                                            bottom: 0px;  
+                                                            }   
+                                                            #avize4 { width: 500px;
+                                                                height: 400px;
+                                                                position: relative;
+                                                                right: -100px;
+                                                                bottom: 500px;
+                                                                }
+                                                                #süs1 { width: 500px;
+                                                                    height: 400px;
+                                                                    position: relative;
+                                                                    right: -100px;
+                                                                    }
+                                                                    #süs2 { width: 500px;
+                                                                        height: 400px;
+                                                                        position: relative;
+                                                                        right: -800px;
+                                                                        bottom: 500px;        
+                                                                        }
+                                                                        #süs3 { width: 500px;
+                                                                            height: 400px;
+                                                                            position: relative;
+                                                                            right: -100px;
+                                                                            bottom: 400px;  
+                                                                            }   
+                                                                            #süs4 { width: 500px;
+                                                                                height: 400px;
+                                                                                position: relative;
+                                                                                right: -800px;
+                                                                                bottom: 900px;
+                                                                                }
+                                                                                #salıncak1 { width: 500px;
+                                                                                    height: 400px;
+                                                                                    position: relative;
+                                                                                    right: -100px;
+                                                                                    
+                                                                                    
+                                                                                    }
+                                                                                    #salıncak2 { width: 500px;
+                                                                                        height: 400px;
+                                                                                        position: relative;
+                                                                                        right: -800px; 
+                                                                                        bottom: 500px;       
+                                                                                        }
+                                                                                        #salıncak3 { width: 500px;
+                                                                                            height: 400px;
+                                                                                            position: relative;
+                                                                                            right: -100px;
+                                                                                            bottom: 400px;  
+                                                                                            }   
+                                                                                            #salıncak4 { width: 500px;
+                                                                                                height: 400px;
+                                                                                                position: relative;
+                                                                                                right: -800px;
+                                                                                                bottom: 900px;
+                                                                                                }
+                                                                                                #çeşit1 { width: 500px;
+                                                                                                    height: 400px;
+                                                                                                    position: relative;
+                                                                                                    right: -100px;
+                                                                                                    }
+                                                                                                    #çeşit2 { width: 500px;
+                                                                                                        height: 400px;
+                                                                                                        position: relative;
+                                                                                                        right: -800px;
+                                                                                                        bottom: 500px;        
+                                                                                                        }
+                                                                                                        #çeşit3 { width: 500px;
+                                                                                                            height: 400px;
+                                                                                                            position: relative;
+                                                                                                            right: -100px;
+                                                                                                            bottom: 400px;  
+                                                                                                            }   
+                                                                                                            #çeşit4 { width: 500px;
+                                                                                                                height: 400px;
+                                                                                                                position: relative;
+                                                                                                                right: -800px;
+                                                                                                                bottom: 900px;
+                                                                                                        }
+                                                                                                        #çeşit5 { width: 500px;
+                                                                                                            height: 400px;
+                                                                                                            position: relative;
+                                                                                                            right: -100px;
+                                                                                                            bottom: 700px
+                                                                                                            }
+                                                                                                            #çeşit6 { width: 500px;
+                                                                                                                height: 400px;
+                                                                                                                position: relative;
+                                                                                                                right: -800px;
+                                                                                                                bottom: 1200px
+                
+
+    }
+    .ortala{
+        position: relative;
+        left: 500px;
+        bottom: 50px;
+        text-align: center;
+        color: white
+    }
+    #kargo { width:200px;
+        height: 200px;
+        position: relative;
+        right: -200px;
+        bottom: -500px;
+            }
+            #zaman { width:200px;
+                height: 200px;
+                position: relative;
+                right: -400px;
+                bottom: -500px;
+                }
+                #kilit { width:200px;
+                    height: 200px;
+                    position: relative;
+                    right: -600px;
+                    bottom: -500px;
+                    }
+                    #mağaza1 { width: 500px;
+                        height: 400px;
+                        position: relative;
+                        right: -100px;
+                        }
+                        #mağaza2 { width: 500px;
+                            height: 400px;
+                            position: relative;
+                            right: -300px;        
+                            }
+                            #mağaza3 { width: 500px;
+                                height: 400px;
+                                position: relative;
+                                right: 200px;
+                                bottom: -800px;  
+                                }   
+                                #mağaza4 { width: 500px;
+                                    height: 400px;
+                                    position: relative;
+                                    right: -100px;
+                                    bottom: -400px;
+                            }
+                            #mağaza5 { width: 500px;
+                                height: 400px;
+                                position: relative;
+                                right: 400px;
+                                bottom: -1000px
+                                }
+                                #mağaza6 { width: 500px;
+                                    height: 400px;
+                                    position: relative;
+                                    right: 200px;
+                                    bottom: -1000px } 
+                                    #mağaza7 { width: 500px;
+                                        height: 400px;
+                                        position: relative;
+                                        right: -100px;
+                                        bottom: -1200px }                           
+                                        #mağaza8 { width: 500px;
+                                            height: 400px;
+                                            position: relative;
+                                            right: -300px;
+                                            bottom: -1200px }
+                                            #mağaza9 { width: 500px;
+                                                height: 400px;
+                                                position: relative;
+                                                right: 200px;
+                                                bottom: -1800px } 
+                                                #mağaza10 { width: 500px;
+                                                    height: 400px;
+                                                    position: relative;
+                                                    right: -100px;
+                                                    bottom: -1400px }      
+                                                    
+                                                    body {
+
+                                                        overflow-x: hidden;
+                                                    }
+                                
+    
+    
